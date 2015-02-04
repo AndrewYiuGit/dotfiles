@@ -1,0 +1,22 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by file type specific settings.
+{
+    // That fatty tab life
+    "tab_size": 4,
+	"translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+
+    // Color Scheme
+    "theme": "Glacier.sublime-theme",
+    "color_scheme": "Packages/Theme - Glacier/glacier.tmTheme",
+
+    // File checks
+    "ensure_newline_at_eof_on_save": true,
+
+    // Navbar stuff
+    "bold_folder_labels": true,
+    "fold_buttons": false,
+
+    // Font stuff
+    "font_size": 12
+}

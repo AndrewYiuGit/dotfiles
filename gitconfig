@@ -1,5 +1,22 @@
+[core]
+    editor = subl
+    excludesfile = ~/.gitignore
+
+[color]
+    ui = true
+
 [alias]
     st = status
     co = checkout
-    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    lg = log --graph
+    br = branch
+    d = diff
+    recent = log -n 10
+
+[format]
+    pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+    graph = true
+
+[log]
+    abbrevCommit = true
 
