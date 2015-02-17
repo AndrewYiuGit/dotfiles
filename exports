@@ -1,5 +1,8 @@
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/bin:$PATH"
 export JAVA_HOME=$(/usr/libexec/java_home)
 export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk
-export EDITOR=vim
+export VISUAL=vim
+export EDITOR="$VISUAL"
 export SVN_EDITOR=vim
 
