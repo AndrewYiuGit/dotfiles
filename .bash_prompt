@@ -1,12 +1,11 @@
 # uses git-prompt.sh that can be found at https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh"
 
-PS1="\[\033[36m\]AndrewYiu@Macbook "
+PS1="\[\033[36m\]AndrewYiu@ECELinux "
 PS1+="\[\033[32m\]\W"
 PS1+="\[\033[91m\]\$(__git_ps1)"
 PS1+="\[\033[m\]\$ "
 export PS1
 
-# export PS1="\[\033[36m\]AndrewYiu@Macbook \[\033[32m\]\W\[\033[91m\]\$(__git_ps1)\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 

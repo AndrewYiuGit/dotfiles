@@ -4,11 +4,6 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-# Directory Shortcuts
-alias sch="cd ~/Documents/School"
-alias dl="cd ~/Downloads"
-alias dt="cd ~/Documents"
-
 # File Listing
 alias ll="ls -la"
 alias la="ls -laF"
@@ -19,16 +14,4 @@ alias py="python"
 alias g="git"
 alias s="svn"
 alias j="jobs"
-
-# Finder
-alias show_hidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias show_hidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
-
-# OSX keyboard
-alias hold_key="defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool"
-
-# One of @janmoesen’s ProTip™s
-for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
-    alias "$method"="lwp-request -m '$method'"
-done
 
