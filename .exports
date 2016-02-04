@@ -1,9 +1,6 @@
-export PATH="/usr/local/Cellar/vim/7.4.889/bin:$PATH"
-export PATH="/usr/bin:$PATH"
-export PATH="/usr/local/bin:$PATH"
 export JAVA_HOME=$(/usr/libexec/java_home)
 export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export SVN_EDITOR=vim
-
+export SCALA_HOME=/Users/andrewyiu/scala-2.11.7

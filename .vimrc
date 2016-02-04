@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 "Plugin 'scrooloose/nerdtree'
 Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'derekwyatt/vim-scala'
 
 "Put plugins before this line
 call vundle#end()
