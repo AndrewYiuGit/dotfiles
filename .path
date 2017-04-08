@@ -10,9 +10,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Vim
 export PATH=$PATH:/usr/local/Cellar/vim/7.4.889/bin
 
-# Sublime
-export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
-
 # Tex
 export PATH=$PATH:/Applications/texmaker.app/Contents/MacOS
 export PATH=$PATH:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin
@@ -22,12 +19,3 @@ export PATH=$PATH:adt-bundle-mac-x86_64/sdk/build-tools/android-4.4.2
 export PATH=$PATH:adt-bundle-mac-x86_64/sdk/platform-tools
 export PATH=$PATH:adt-bundle-mac-x86_64/sdk/tools
 export PATH=$PATH:/Users/andrewyiu/adt-bundle-mac-x86_64/sdk/platform-tools/
-
-# Scala
-export PATH=$PATH:$SCALA_HOME/bin
-
-# Octave
-export PATH=$PATH:/usr/local/octave/3.8.0/bin/
-
-# Mongo
-export PATH=$PATH:/usr/local/bin/mongo/bin

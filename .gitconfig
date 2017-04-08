@@ -1,6 +1,6 @@
 [core]
-    editor = vim
-    excludesfile = ~/.gitignore
+    editor = /usr/bin/vim
+    excludesfile = /Users/andrewyiu/.gitignore_global
     abbrev = 12
 
 [color]

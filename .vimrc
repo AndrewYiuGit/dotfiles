@@ -1,22 +1,5 @@
 "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"--------
 
-"Vundle stuff
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdtree'
-Plugin 'bling/vim-airline'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'derekwyatt/vim-scala'
-
-"Put plugins before this line
-call vundle#end()
-filetype plugin indent on
-
 let mapleader=","
 
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
@@ -39,6 +22,7 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+"Highlight anything over 80 chars
 highlight overLength ctermbg=7 ctermfg=black
 match overLength /\%81v.\+/
 
@@ -84,6 +68,3 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 
 set backspace=2
-
-"YouCompleteMe stuff
-let g:airline#extensions#tabline#enabled = 1

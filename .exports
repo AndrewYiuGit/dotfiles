@@ -1,6 +1,4 @@
-export JAVA_HOME=$(/usr/libexec/java_home)
-export STUDIO_JDK=/Library/Java/JavaVirtualMachines/jdk1.7.0_55.jdk
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export SVN_EDITOR=vim
-export SCALA_HOME=/Users/andrewyiu/scala-2.11.7
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH

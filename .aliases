@@ -16,11 +16,7 @@ alias ls="ls -F"
 
 # Command Shortcuts
 alias py="python"
-alias py3="python3"
-alias pytest3="py3 -m py.test"
 alias g="git"
-alias s="svn"
-alias j="jobs"
 
 # Finder
 alias show_hidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
@@ -34,3 +30,16 @@ for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
     alias "$method"="lwp-request -m '$method'"
 done
 
+# School stuff
+alias csx="ssh -XY ayiu@linux.student.cs.uwaterloo.ca"
+alias cs="ssh ayiu@linux.student.cs.uwaterloo.ca"
+alias sftpcs="sftp ayiu@linux.student.cs.uwaterloo.ca"
+alias ece="ssh ayiu@ecelinux.uwaterloo.ca"
+alias ecex="ssh -X ayiu@ecelinux.uwaterloo.ca"
+alias cs458="ssh ayiu@ugster05.student.cs.uwaterloo.ca"
+
+# Steam configs
+alias steam="cd /Users/andrewyiu/Library/Application\ Support/Steam/SteamApps/common"
+
+# OSX Volume Bug
+alias fixaudio="sudo killall coreaudiod"
