@@ -26,8 +26,8 @@ set noswapfile
 highlight overLength ctermbg=7 ctermfg=black
 match overLength /\%81v.\+/
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 set autoindent
@@ -54,10 +54,10 @@ nnoremap <F7> :tabp<CR>
 nnoremap <F8> :tabn<CR>
 
 " For when I'm feeling hardcore
-"nnoremap <up> <nop>
-"nnoremap <down> <nop>
-"nnoremap <left> <nop>
-"nnoremap <right> <nop>
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
 
 nnoremap j gj
 nnoremap k gk

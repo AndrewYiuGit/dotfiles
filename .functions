@@ -10,3 +10,11 @@ function stop_pg() {
 function start_pg() {
     pg_ctl -D /usr/local/var/postgres -l logfile start
 }
+
+function press_hold() {
+    defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
+}
+
+function no_press_hold() {
+    defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool true
+}

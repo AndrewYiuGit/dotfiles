@@ -5,9 +5,8 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 
 # Directory Shortcuts
-alias sch="cd ~/Documents/Documents/School"
 alias dl="cd ~/Downloads"
-alias dt="cd ~/Documents"
+alias dt="cd ~/Documents/Documents"
 
 # File Listing
 alias ll="ls -la"
@@ -20,15 +19,7 @@ alias g="git"
 
 # Finder
 alias show_hidden="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias show_hidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
-
-# OSX keyboard
-alias hold_key="defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool"
-
-# One of @janmoesen’s ProTip™s
-for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
-    alias "$method"="lwp-request -m '$method'"
-done
+alias hide_hidden="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
 # School stuff
 alias csx="ssh -XY ayiu@linux.student.cs.uwaterloo.ca"
@@ -39,7 +30,7 @@ alias ecex="ssh -X ayiu@ecelinux.uwaterloo.ca"
 alias cs458="ssh ayiu@ugster05.student.cs.uwaterloo.ca"
 
 # Steam configs
-alias steam="cd /Users/andrewyiu/Library/Application\ Support/Steam/SteamApps/common"
+alias steam="cd /Users/ayiu/Library/Application\ Support/Steam/SteamApps/common"
 
 # OSX Volume Bug
 alias fixaudio="sudo killall coreaudiod"

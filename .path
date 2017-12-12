@@ -4,18 +4,6 @@ export PATH="/usr/local/bin:$PATH"
 # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/.rvm/bin"
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-# Vim
-export PATH=$PATH:/usr/local/Cellar/vim/7.4.889/bin
-
 # Tex
-export PATH=$PATH:/Applications/texmaker.app/Contents/MacOS
-export PATH=$PATH:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin
-
-# Android
-export PATH=$PATH:adt-bundle-mac-x86_64/sdk/build-tools/android-4.4.2
-export PATH=$PATH:adt-bundle-mac-x86_64/sdk/platform-tools
-export PATH=$PATH:adt-bundle-mac-x86_64/sdk/tools
-export PATH=$PATH:/Users/andrewyiu/adt-bundle-mac-x86_64/sdk/platform-tools/
+#export PATH=$PATH:/Applications/texmaker.app/Contents/MacOS
+#export PATH=$PATH:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin
